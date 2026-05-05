@@ -39,7 +39,7 @@ def imdilation(binary_img, structuring_element):
     for i in range(m):
         for j in range(n):
             region = padded_img[i:i+k_m, j:j+k_n]
-            if np.any(np.logical_and(region > 1, structuring_element == 1)):
+            if np.any(np.logical_and(region == 1, structuring_element == 1)):
                 output[i, j] = 1
     
     return output
