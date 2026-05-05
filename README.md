@@ -6,6 +6,6 @@ basic setup on Linux:
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install matplot-lib ipykernel
+pip install -r requirements.txt
 python -m ipykernel install --user --name=IAOR26_01
 ```
