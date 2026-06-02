@@ -1,5 +1,5 @@
 # IAOR_SS26
-My solutions for the assignments for the lecture image analysis and object recognition at the Baubaus University Weimar, SS 2026  
+My solutions for the assignments for the lecture image analysis and object recognition at the Bauhaus University Weimar, SS 2026  
 
 basic setup on Linux:
 
@@ -7,5 +7,5 @@ basic setup on Linux:
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python -m ipykernel install --user --name=IAOR26_01
+python -m ipykernel install --user --name=IAOR26_03
 ```
