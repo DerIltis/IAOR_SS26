@@ -7,5 +7,5 @@ basic setup on Linux:
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python -m ipykernel install --user --name=IAOR26_03
+python -m ipykernel install --user --name=IAOR26_04
 ```
