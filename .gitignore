@@ -297,3 +297,5 @@ __marimo__/
 /.idea/.gitignore
 
 src/data
+src/figs
+src/models
